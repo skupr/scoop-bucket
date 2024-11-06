@@ -1,26 +1,26 @@
 {
-  "license": "Freeware",
-  "version": "2.4.1.0",
-  "description": "FurMark 2 is the successor of the venerable FurMark 1 and is a very intensive GPU stress test on Windows (32-bit and 64-bit) and Linux (32-bit and 64-bit) platforms. It's also a quick OpenGL and Vulkan graphics benchmark with online scores. FurMark 2 has an improved command line support and is built with GeeXLab.",
-  "hash": "FBBAA1B90DD9E9195C60EAEE9821ACE0ADD1202B6E51488CFE75FDE9D8447CD1",
-  "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_2.4.1.0_win64.zip",
-  "homepage": "https://geeks3d.com/furmark/",
-  "checkver": {
-    "url": "https://geeks3d.com/furmark/downloads/",
-    "regex": "<a href=\"(?<dlpage>[^\"]+)\".*?>v(2.[\\d\\.]+) - win64 - \\(ZIP\\)"
-  },
-  "autoupdate": {
-    "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_$version_win64.zip",
-    "hash": {
-      "url": "https://geeks3d.com/$dlpage",
-      "regex": "$sha256"
-    }
-  },
-  "extract_dir": "FurMark_win64",
-  "bin": [
-    [
-      "FurMark_GUI.exe",
-      "FurMark2"
+    "license": "Freeware",
+    "version": "2.4.1.0",
+    "description": "FurMark 2 is the successor of the venerable FurMark 1 and is a very intensive GPU stress test on Windows (32-bit and 64-bit) and Linux (32-bit and 64-bit) platforms. It's also a quick OpenGL and Vulkan graphics benchmark with online scores. FurMark 2 has an improved command line support and is built with GeeXLab.",
+    "hash": "FBBAA1B90DD9E9195C60EAEE9821ACE0ADD1202B6E51488CFE75FDE9D8447CD1",
+    "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_2.4.1.0_win64.zip",
+    "homepage": "https://geeks3d.com/furmark/",
+    "checkver": {
+        "url": "https://geeks3d.com/furmark/downloads/",
+        "regex": "<a href=\"(?<dlpage>[^\"]+)\".*?>v(2.[\\d\\.]+) - win64 - \\(ZIP\\)"
+    },
+    "autoupdate": {
+        "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_$version_win64.zip",
+        "hash": {
+            "url": "https://geeks3d.com/$dlpage",
+            "regex": "$sha256"
+        }
+    },
+    "extract_dir": "FurMark_win64",
+    "bin": [
+        [
+            "FurMark_GUI.exe",
+            "FurMark2"
+        ]
     ]
-  ]
 }
