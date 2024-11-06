@@ -7,7 +7,14 @@
   "homepage": "https://geeks3d.com/furmark/",
   "checkver": {
     "url": "https://geeks3d.com/furmark/downloads/",
-    "regex": "v(2.[\\d\\.]+) - win64 - \\(ZIP\\)"
+    "regex": "<a href=\"(?<dlpage>[^\"]+)\".*?>v(2.[\\d\\.]+) - win64 - \\(ZIP\\)"
+  },
+  "autoupdate": {
+    "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_$version_win64.zip",
+    "hash": {
+      "url": "https://geeks3d.com/$dlpage",
+      "regex": "$sha256"
+    }
   },
   "extract_dir": "FurMark_win64",
   "bin": [
