@@ -12,7 +12,7 @@
     "autoupdate": {
         "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_$version_win64.zip",
         "hash": {
-            "url": "https://geeks3d.com/$dlpage",
+            "url": "https://geeks3d.com/$matchDlpage",
             "regex": "$sha256"
         }
     },
