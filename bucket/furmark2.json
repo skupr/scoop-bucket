@@ -4,7 +4,7 @@
     "homepage": "https://geeks3d.com/furmark/",
     "license": "Freeware",
     "hash": "1df15da03ed63259265d1f56c56d3c770144bf3c2c31dba0587cf2e31b1107e5",
-    "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_2.4.3_win64.zip",
+    "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_2.4.3.0_win64.zip",
     "extract_dir": "FurMark_win64",
     "shortcuts": [
         [
@@ -17,7 +17,7 @@
         "regex": "<a href=\"(?<dlpage>[^\"]+)\".*?>v(2.[\\d\\.]+) - win64 - \\(ZIP\\)"
     },
     "autoupdate": {
-        "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_$version_win64.zip",
+        "url": "https://geeks3d.com/downloads/2024p/furmark2/FurMark_$version.0_win64.zip",
         "hash": {
             "url": "https://geeks3d.com/$matchDlpage",
             "regex": "$sha256"
