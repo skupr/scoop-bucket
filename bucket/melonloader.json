@@ -1,10 +1,10 @@
 {
-    "version": "0.6.6",
+    "version": "0.7.0",
     "description": "The World's First Universal Mod Loader for Unity Games",
     "homepage": "https://melonwiki.xyz/",
     "license": "Apache-2.0",
-    "url": "https://github.com/LavaGang/MelonLoader/releases/download/v0.6.6/MelonLoader.Installer.exe",
-    "hash": "sha512:2e1c61e674144b96bf7bd76f260b532610f9745b8f653e9036e1c71fb6f61123ef57285503c3fc893783b89f8943558ca647e31c4fd53cbdb70de7f4da91f2f0",
+    "url": "https://github.com/LavaGang/MelonLoader/releases/download/v0.7.0/MelonLoader.Installer.exe",
+    "hash": "sha512:ec2414b34855fe6f5294bcf49e4b2981592c0d4257abce7c073360a240da1d7ec070f36d9f8747223fdb8cacf2dfbd556bc59a563111152732685c2e8004b364",
     "shortcuts": [
         [
             "MelonLoader.Installer.exe",
