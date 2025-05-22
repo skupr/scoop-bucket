@@ -1,10 +1,10 @@
 {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "AssetRipper is a powerful tool for extracting and converting Unity engine assets.",
     "homepage": "https://assetripper.github.io/AssetRipper/",
     "license": "MIT",
-    "url": "https://github.com/AssetRipper/AssetRipper/releases/download/1.2.2/AssetRipper_win_x64.zip",
-    "hash": "3aab9f1f287ab8cabe2ca5d4334a8fcdd0ce6132e5c86593547e54706de4a832",
+    "url": "https://github.com/AssetRipper/AssetRipper/releases/download/1.2.3/AssetRipper_win_x64.zip",
+    "hash": "f1a79b2bd80ca4110c02b41181e90c297edf6ac4d4b8594c87ada3e1978787e7",
     "shortcuts": [
         [
             "AssetRipper.GUI.Free.exe",
